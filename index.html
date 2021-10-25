@@ -1,24 +1,25 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
+
+
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>FIPMAM Home</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"name = "fipmam madagasikara">
+	<title name="fipmam">FIPMAM Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-	<meta name="fipmam madagascar" content="" />
+	<meta name="author" content="" />
 
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
+	<meta property="og:title" content="Fipmam"/>
+	<meta property="og:image" content="Fipmam Madagascar"/>
+	<meta property="og:url" content="Fipmam"/>
+	<meta property="og:site_name" content="Fipmam Madagasikara"/>
 	<meta property="og:description" content=""/>
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
@@ -49,6 +50,15 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J1V93F2FF7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J1V93F2FF7');
+</script>
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
@@ -59,10 +69,10 @@
 					<div class="col-md-6 col-sm-6 text-left fh5co-link">
 						<a href="#">FAQ</a>
 						<a href="#">Forum</a>
-						<a href="#">Contact</a>
+						<a href="contact.html">Contact</a>
 					</div>
 					<div class="col-md-6 col-sm-6 text-right fh5co-social">
-						<a href="#" class="grow"><i class="icon-facebook2"></i></a>
+						<a href="" class="grow"><i class="icon-facebook2"></i></a>
 						<a href="#" class="grow"><i class="icon-twitter2"></i></a>
 						<a href="#" class="grow"><i class="icon-instagram2"></i></a>
 					</div>
@@ -78,9 +88,11 @@
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li class="active">
-								<a href="index.html">Home</a>
+								<a id="home_page" href="index.html">Home</a>
 							</li>
 							<li ><a href="mission.html">Our mission</a></li>
+							<li ><a href="story.php">Story</a></li></li>
+							<li ><a href="song_page.php">Song</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
@@ -89,17 +101,19 @@
 		</header>
 		
 		
-
+		
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/photo.jpeg);">
-				<div class="desc animate-box big_title">
+				<div class="desc animate-box big_title slogan">
 					<div class="my_title"><strong>FI</strong>kambanana</div>
 					<div class="my_title"><strong>P</strong>rotestanta</div>
 					<div class="my_title"><strong>M</strong>panolokolo </div>
 					<div class="my_title"><strong>A</strong>nkizy eto</div>
-					<div class="my_title"><strong>M</strong>adagasikara</div><br>
-					<span><a class="btn btn-primary btn-lg" href="#">Donate Now</a></span>
+					<div class="my_title"><strong>M</strong>adagasikara</div>
+					<h3 class="font-white">--- Protestant Child Care Organization in Madagascar ---</h3>
+					<span><a class="btn btn-danger btn-lg" href="contact.html">Donate Now</a></span>
+					<span><a class="btn btn-primary btn-lg" href="http://imerintsiafindra.fipmam-madagasikara.mdg.ooo">Visit Fipmam Imerintsiafindra</a></span>
 				</div>
 			</div>
 
@@ -110,7 +124,8 @@
 
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
-						<h3>Our activities</h3>
+						<h3>Our Projects. Support Us</h3>
+						
 						<p>FIPMAM has five fields of activities. Each one envolve Children developpement in term of body, spiritual, and intellectual as God created them.  </p>
 						<p><strong>"Suffer the little children to come unto me, and forbid them not: for of such is the kingdom of GOD"
 							<br>Mark 10 : 14</strong></p>
@@ -122,17 +137,19 @@
 					<div class="col-md-12">
 						<ul id="fh5co-portfolio-list">
 
-							<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/cover_bg_1.jpg); ">
-								<a href="#" class="color-3">
+							<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/lafa.jpg); ">
+								<a href="#" class="color-3" data-toggle="modal" data-target="#lafa">
 									<div class="case-studies-summary">
 										<span>Lasy Fanolokolona</span>
-										<h2>LA FA - Vacation colony</h2>
+										<h2 >LA FA - Vacation colony</h2>
+
+										
 									</div>
 								</a>
 							</li>
 						
 							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/lafi.jpg); ">
-								<a href="#" class="color-4">
+								<a href="#" class="color-4" data-toggle="modal" data-target="#lafi">
 									<div class="case-studies-summary">
 										<span>Lasy Fihofanana</span>
 										<h2>LA FI</h2>
@@ -140,8 +157,8 @@
 								</a>
 							</li>
 
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/cover_bg_1.jpg); "> 
-								<a href="#" class="color-5">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/fata.jpg); "> 
+								<a href="#" class="color-5" data-toggle="modal" data-target="#fata">
 									<div class="case-studies-summary">
 										<span>Fanatonana ankizy Tantsaha</span>
 										<h2>FA TA</h2>
@@ -149,7 +166,7 @@
 								</a>
 							</li>
 							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/fama.jpg); "> 
-								<a href="#" class="color-5">
+								<a href="#" class="color-5" data-toggle="modal" data-target="#fama">
 									<div class="case-studies-summary">
 										<span>Fanolokolona Maharitra</span>
 										<h2>FA MA</h2>
@@ -157,7 +174,7 @@
 								</a>
 							</li>
 							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/latse.jpg); "> 
-								<a href="#" class="color-5">
+								<a href="#" class="color-5" data-toggle="modal" data-target="#latse">
 									<div class="case-studies-summary">
 										<span>Lasy Tselatra</span>
 										<h2>LA TSE</h2>
@@ -170,7 +187,7 @@
 
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4 text-center animate-box">
-						<a href="#" class="btn btn-primary btn-lg">Branches</a>
+						<a href="https://web.facebook.com/ProtestantaMpanolokoloNyankizy" class="btn btn-primary btn-lg">Branches</a>
 					</div>
 				</div>
 
@@ -188,7 +205,7 @@
 						<p>Here are actual office member of FIPMAM Foibe.</p>
 					</div>
 					<div class="col-md-12 text-center animate-box">
-						<p><img src="images/fiangonana.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
+						<p><img src="images/fiangonana.jpg" alt="Fipmam church" class="img-responsive" style="height : 50%"></p>
 					</div>
 				</div>
 			</div>
@@ -197,29 +214,29 @@
 					<div class="col-md-4">
 						<div class="fh5co-testimonial text-center animate-box">
 							<figure>
-								<img src="images/person_1.jpg" alt="user">
+								<img src="images/Dady.png" alt="user">
 							</figure>
 							<blockquote>
 								<h3>Dady</h3>
-								<p>National President of FIPMAM since 2 years.</p>
+								<p>National President of FIPMAM .</p>
 							</blockquote>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-testimonial text-center animate-box">
 							<figure>
-								<img src="images/person_2.jpg" alt="user">
+								<img src="images/Norohanta.jpg" alt="user">
 							</figure>
 							<blockquote>
 								<h3>Noro Hanta</h3>
-								<p>National Treasure of FIPMAM</p>
+								<p>Vice president of FIPMAM</p>
 							</blockquote>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-testimonial text-center animate-box">
 							<figure>
-								<img src="images/person_3.jpg" alt="user">
+								<img src="images/Miakabola.png" alt="user">
 							</figure>
 							<blockquote>
 								<h3>Miakabola</h3>
@@ -230,128 +247,216 @@
 				</div>
 			</div>
 		</div>
-		<!-- fh5co-content-section -->
-<!--
-		<div id="fh5co-services-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Our Projects. Support Us</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-heart"></i></span>
-							<h3>Water Project In Kenya</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-heart"></i></span>
-							<h3>Shelter Giving</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-heart"></i></span>
-							<h3>Shelter Giving</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-heart"></i></span>
-							<h3>Water Project In Kenya</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-heart"></i></span>
-							<h3>Water Project In Kenya</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-heart"></i></span>
-							<h3>Midical Mission</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
- -->
 
-
-		<div id="fh5co-blog-section" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>LAST UPDATES</h3>
-						<p>Here are last updates, celebration by FFPM and FIPMAM </p>
-					</div>
+		  
+		  <!-- Modal -->
+		  <div class="modal fade" id="lafa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content padding-dialog">
+				<div class="modal-header">
+				  <h2 class="modal-title text-center" id="exampleModalLabel">Lasy Fanolokolona - LAFA</h2>
+				  <h3 class="text-center">Vacancy Colony</h3>
 				</div>
-			</div>
-			<div class="container">
-				<div class="row row-bottom-padded-md">
-					<div class="col-lg-6 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/tratry_ny_taona2020.jpg" alt=""></a>
-							<div class="blog-text">
-								<div class="prod-title">
-									<h3><a href=""#>New year celebration 2020 - COVID 19</a></h3>
-									<span class="posted_by">January. 06th</span>
-									<p>Last FFPM groupment in 2020. At Abohijatovo Atsimo</p>
-									<p><a href="#">Learn More...</a></p>
+				<div class="modal-body">
+				<strong>Definition :</strong><br>
+				Take children to a holiday camp for 15 to 21 days and promote their social development there, the common sense of responsibility
+				</br><br>
+
+				<strong>Philisophy : </strong><br>
+				To allow the child to have the courage to demonstrate their talents.
+				<br><br>
+				
+						<div class="row text-center">
+								<div class="col-md-4 col-sm-4">
+									<div class="services animate-box">
+										<span><i class="icon-heart"></i></span>
+										<h3>Fraternity</h3>
+										<p></p>
+									</div>
 								</div>
-							</div> 
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/imerintsiafindra.jpg" alt=""></a>
-							<div class="blog-text">
-								<div class="prod-title">
-									<h3><a href=""#>New year celebration IMERINTSIAFINDRA</a></h3>
-									<span class="posted_by">January. 08th</span>
-									<p>Imerintsiafindra new year celebration</p>
-									<p><a href="#">Learn More...</a></p>
+								<div class="col-md-4 col-sm-4">
+									<div class="services animate-box">
+										<span><i class="icon-heart"></i></span>
+										<h3>Mutual Aid</h3>
+										<p></p>
+									</div>
 								</div>
-							</div> 
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/imerintsiafindra.jpg" alt=""></a>
-							<div class="blog-text">
-								<div class="prod-title">
-									<h3><a href=""#>New year celebration FFPM 2021</a></h3>
-									<span class="posted_by">January. 08th</span>
-									<p>FFPM new year celebration at Vohipiraisana</p>
-									<p><a href="#">Learn More...</a></p>
+								<div class="col-md-4 col-sm-4">
+									<div class="services animate-box">
+										<span><i class="icon-heart"></i></span>
+										<h3>Curiosity</h3>
+										<p></p>
+									</div>
 								</div>
-							</div> 
-						</div>
-					</div>
+							</div>
+				
+				
+				</br>
+				<strong>Programs :</strong><br>
+				Once on the scene, move on to the active community :
+				  <ul>
+					  <li>Strict organisation within theme </li>
+					  <li>Spiritual healing </li>
+					  <li>Relaxed and comfortable atmosphere</li>
+					  <li>Colony animation</li>
+					  <li>FIPMAM camp song instruction</li>
+					  <li>Harmonious dance</li>
+					  <li>Handicrafts</li>
+					  <li>Mind-blowing and creative games</li>
+					  <li>Debate within theme</li>
+				  </ul>
+
+				  <br>
+				  <strong>Prerequisite for Vacation Colony Monitor :</strong><br>
+				  It is determined that FIPMAM members must have completed a TRAINING CAMP
+				  or only LAFI can lead LAFA colony.
+
+				
+				<br>
 					
-				</div>
+				
 
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4 text-center animate-box">
-						<a href="#" class="btn btn-primary btn-lg">Our Blog</a>
-					</div>
 				</div>
-
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
 			</div>
-		</div>
+		  </div>
+
+
+		  <div class="modal fade" id="lafi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+				  <div class="modal-content padding-dialog">
+					<div class="modal-header">
+					  <h2 class="modal-title text-center" id="exampleModalLabel">Lasy Fihofanana - LAFI</h2>
+					  <h3 class="text-center">Monitor Training Camp</h3>
+					</div>
+					<div class="modal-body">
+					<strong>Definition :</strong><br>
+					Camp to train members to be a summer camp instructor during 1 week, within close camp. 
+					
+					
+					</br></br>
+					<strong>Programs :</strong><br>
+					Instruct monitors by following a training program containing 15 modules. All programs are illustrated <a href="mission.html">in this link</a>
+
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+
+
+		  <div class="modal fade" id="fata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content padding-dialog">
+				<div class="modal-header">
+				  <h2 class="modal-title text-center" id="exampleModalLabel">Fanatonana ankizy Tantsaha - FATA</h2>
+				  <h3 class="text-center">Approaching child farmers</h3>
+				</div>
+				<div class="modal-body">
+				<strong>Definition :</strong><br>
+				FIPMAM Volunteer and monitor approach child farmers to allow them an education. This education is based on FIPMAM phylosophy.
+				
+				
+				</br></br>
+				<strong>Programs :</strong><br>
+				
+				  <ul>
+					  <li>Organize children in group </li>
+					  <li>Educate them by understand the context of their life</li>
+					  
+				  </ul>
+
+				  <br>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+
+		  <div class="modal fade" id="fama" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content padding-dialog">
+				<div class="modal-header">
+				  <h2 class="modal-title text-center" id="exampleModalLabel">Fanolokolona Maharitra - FAMA</h2>
+				  <h3 class="text-center">Long term education</h3>
+				</div>
+				<div class="modal-body">
+				<strong>Definition :</strong><br>
+				FIPMAM Organization approach an institution : as primary school, college, church school and then education children by FIPMAM way.
+				
+				</br></br>
+				<strong>Programs :</strong><br>
+				
+				  <ul>
+					  <li>Choice an institution  : school, church, other organizations...</li>
+					  <li>Do FIPMAM Mission in this institution</li>
+					  <li>Schedule a time in a week to do the mission</li>
+					  <li>The mission will be done every week within many month depend on the schedule</li>
+					  
+				  </ul>
+
+				  <br>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+
+		  <div class="modal fade" id="latse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+			  <div class="modal-content padding-dialog">
+				<div class="modal-header">
+				  <h2 class="modal-title text-center" id="exampleModalLabel">Lasy Tselatra - LATSE</h2>
+				  <h3 class="text-center">Camp for volunteers and FIPMAM members</h3>
+				</div>
+				<div class="modal-body">
+				<strong>Definition :</strong><br>
+				One time every 3 month FIPMAM members and volunteer does a camp to increase love, cohesion, value and fraternity beetween each members.
+				
+				</br></br>
+				<strong>Programs :</strong><br>
+				
+				  <ul>
+					<ul>
+						<li>Strict organisation within theme </li>
+						<li>Spiritual healing </li>
+						<li>Relaxed and comfortable atmosphere</li>
+						<li>Colony animation</li>
+						<li>FIPMAM camp song instruction</li>
+						<li>Harmonious dance</li>
+						<li>Handicrafts</li>
+						<li>Mind-blowing and creative games</li>
+						<li>Debate within theme</li>
+					</ul>
+				  </ul>
+
+				  <br>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+		<!-- fh5co-content-section -->
+
+
+			
+	
+
 
 
 
@@ -403,7 +508,7 @@
 						</div>
 					</div>
 				</div>
-<!--
+
 				<div id="fh5co-feature-product" class="fh5co-section-gray">
 					<div class="container">
 						<div class="row">
@@ -456,8 +561,8 @@
 						<h5 class="">ABOUT </h5>
 						<p>FFPM - Federation of the Protestant Churches of Madagascar<br>
 						FIPMAM - Fikambanana Protestanta Mpanolokolo Ankizy eto Madagasikara<br><br>
-						E-mail : fipmam@gmail.com<br>
-						Phone : +261 34 000 00</p>
+						E-mail : Fipmam (Imerintsiafindra) fipmam.imerintsiafindra.@gmail.com<br>
+						Phone : +261343986110</p>
 						
 					</div>
 
@@ -471,7 +576,7 @@
 								<a href="#"><i class="icon-dribbble2"></i></a>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
-							<p>Copyright 2021 <a href="#">Manolo Rajaonah</a>. All Rights Reserved </p>
+							<p>Copyright 2021 .Website by <a href="http://manoloraj.github.io/">Manolo Rajaonah</a>. All Rights Reserved </p>
 						</div>
 					</div>
 				</div>
